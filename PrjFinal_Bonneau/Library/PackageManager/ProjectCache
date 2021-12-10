@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747471844831961
-    m_Hash: 2522921201
+      ticks: 637747533490450079
+    m_Hash: 2040701602
   m_LockFileStatus:
     m_FilePath: D:/Git/Personal/PrjFinal_Bonneau/PrjFinal_Bonneau/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747472047904976
-    m_Hash: 1266107525
+      ticks: 637747533490544450
+    m_Hash: 3850759401
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -71,7 +71,11 @@ m_PackageAssets:
         - 1.12.5
         - 1.13.5
         - 1.14.1
+        - 1.14.4
+        - 1.14.7
         - 1.15.1
+        - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -85,7 +89,11 @@ m_PackageAssets:
         compatible:
         - 1.13.5
         - 1.14.1
+        - 1.14.4
+        - 1.14.7
         - 1.15.1
+        - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -1004,6 +1012,71 @@ m_PackageAssets:
       repository:
         type: 
         url: 
+        revision: 
+        path: 
+    - packageId: jp.keijiro.klak.spout@2.0.3
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.3
+      source: 1
+      resolvedPath: D:\Git\Personal\PrjFinal_Bonneau\PrjFinal_Bonneau\Library\PackageCache\jp.keijiro.klak.spout@2.0.3
+      assetPath: Packages/jp.keijiro.klak.spout
+      name: jp.keijiro.klak.spout
+      displayName: KlakSpout
+      author:
+        name: Keijiro Takahashi
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Cross-process texture sharing plugin (Spout protocol)
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.1
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        compatible:
+        - 1.0.0
+        - 1.0.1
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        verified: 
+      dependencies:
+      - name: com.unity.modules.screencapture
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.screencapture
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      keywords:
+      - unity
+      registry:
+        id: scoped:Keijiro
+        name: Keijiro
+        url: https://registry.npmjs.com
+        scopes:
+        - jp.keijiro
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637634904256120000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/keijiro/KlakSpout.git
         revision: 
         path: 
     - packageId: com.unity.modules.ai@1.0.0
@@ -2845,6 +2918,7 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
+        - 1.2.5
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -2861,7 +2935,8 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3313,6 +3388,7 @@ m_PackageAssets:
         - 1.1.0-pre.9
         - 1.1.0-pre.10
         - 1.1.0-pre.11
+        - 1.1.0-pre.41
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3320,6 +3396,7 @@ m_PackageAssets:
         - 1.1.0-pre.9
         - 1.1.0-pre.10
         - 1.1.0-pre.11
+        - 1.1.0-pre.41
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
